@@ -31,3 +31,25 @@ Before running the code, ensure you have the following Python libraries installe
 You can install them using the following command:
     
     pip install numpy pandas scikit-learn
+
+# Dataset
+
+The dataset mail_data.csv should contain the following columns:
+
+* Category: Target variable (either "spam" or "ham").
+
+* Message: The email content that needs to be classified.
+
+# Categories:
+
+* Spam: Unsolicited or unwanted email.
+
+* Ham: Legitimate, non-spam email.
+
+# Files
+
+* spam_classifier.py: Python script for building and evaluating the spam classifier.
+
+* mail_data.csv: Sample email dataset (with "Category" and "Message" columns).
+
+* README.md: This documentation
