@@ -68,6 +68,8 @@ You can change the input_mail variable in the script to classify any custom emai
 
     input_mail = ["I've been searching for the right words to thank you for this breather..."]
 
+The model will predict if the message is spam or ham.
+
 # Notes
 
 * TF-IDF is used for feature extraction, which helps in handling large datasets by converting text data into useful features.
