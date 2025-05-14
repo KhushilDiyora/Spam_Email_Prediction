@@ -29,3 +29,5 @@ Before running the code, ensure you have the following Python libraries installe
 * `scikit-learn`
 
 You can install them using the following command:
+    
+    pip install numpy pandas scikit-learn
