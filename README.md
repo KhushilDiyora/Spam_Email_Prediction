@@ -2,11 +2,11 @@
 
 This repository contains a spam email classifier built using Logistic Regression and TF-IDF for feature extraction. The model classifies emails into two categories: spam or ham (non-spam).
 
-# Overview
+# 🗺️ Overview
 
 The project uses a dataset of email messages, which are classified as either spam or ham. The model uses Logistic Regression for classification after transforming the email messages into numerical feature vectors using TF-IDF (Term Frequency-Inverse Document Frequency). The classifier is then evaluated based on its accuracy on both training and test datasets.
 
-# Features
+# ⭐ Features
 
 * Data Preprocessing: Handles missing data and encodes labels ('spam' as 0 and 'ham' as 1).
 
@@ -18,7 +18,7 @@ The project uses a dataset of email messages, which are classified as either spa
 
 * Prediction: Classifies an input email message as either "Spam" or "Ham".
 
-# Prerequisites
+# ✅ Prerequisites
 
 Before running the code, ensure you have the following Python libraries installed:
 
@@ -32,7 +32,7 @@ You can install them using the following command:
     
     pip install numpy pandas scikit-learn
 
-# Dataset
+# 📊 Dataset
 
 The dataset mail_data.csv should contain the following columns:
 
@@ -40,20 +40,20 @@ The dataset mail_data.csv should contain the following columns:
 
 * Message: The email content that needs to be classified.
 
-# Categories
+# 🏷️ Categories
 
 * Spam: Unsolicited or unwanted email.
 
 * Ham: Legitimate, non-spam email.
 
-# Files
+# 📂 Files
 
 * spam_classifier.py: Python script for building and evaluating the spam classifier.
 
 * mail_data.csv: Sample email dataset (with "Category" and "Message" columns).
 
 
-# Example
+# 💡 Example
 
 The script will output something like this:
             
@@ -62,7 +62,7 @@ The script will output something like this:
     [1]
     Ham mail
 
-# Custom Prediction
+# ⚙️ Custom Prediction
 
 You can change the input_mail variable in the script to classify any custom email message. For example:
 
@@ -70,7 +70,7 @@ You can change the input_mail variable in the script to classify any custom emai
 
 The model will predict if the message is spam or ham.
 
-# Notes
+# 📌 Notes
 
 * TF-IDF is used for feature extraction, which helps in handling large datasets by converting text data into useful features.
 
