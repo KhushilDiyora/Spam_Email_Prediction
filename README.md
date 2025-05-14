@@ -40,7 +40,7 @@ The dataset mail_data.csv should contain the following columns:
 
 * Message: The email content that needs to be classified.
 
-# Categories:
+# Categories
 
 * Spam: Unsolicited or unwanted email.
 
@@ -53,7 +53,7 @@ The dataset mail_data.csv should contain the following columns:
 * mail_data.csv: Sample email dataset (with "Category" and "Message" columns).
 
 
-# Example:
+# Example
 
 The script will output something like this:
             
