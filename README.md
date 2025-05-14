@@ -52,4 +52,27 @@ The dataset mail_data.csv should contain the following columns:
 
 * mail_data.csv: Sample email dataset (with "Category" and "Message" columns).
 
-* README.md: This documentation
+
+# Example:
+
+The script will output something like this:
+            
+    Accuracy on training data: 0.978
+    Accuracy on test data: 0.973
+    [1]
+    Ham mail
+
+# Custom Prediction
+
+You can change the input_mail variable in the script to classify any custom email message. For example:
+
+    input_mail = ["I've been searching for the right words to thank you for this breather..."]
+
+# Notes
+
+* TF-IDF is used for feature extraction, which helps in handling large datasets by converting text data into useful features.
+
+* Logistic Regression is used for classification, but you can experiment with other algorithms for improved accuracy.
+
+* This project is intended to be a basic demonstration and can be extended with more advanced techniques like Naive Bayes, Support Vector Machines, or deep learning approaches.
+
