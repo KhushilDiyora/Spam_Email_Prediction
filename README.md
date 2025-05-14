@@ -16,15 +16,16 @@ The project uses a dataset of email messages, which are classified as either spa
 
 * Model Evaluation: Outputs the accuracy of the model on both training and test data.
 
-Prediction: Classifies an input email message as either "Spam" or "Ham".
+* Prediction: Classifies an input email message as either "Spam" or "Ham".
 
-Prerequisites
+# Prerequisites
+
 Before running the code, ensure you have the following Python libraries installed:
 
-numpy
+* `numpy`
 
-pandas
+* `pandas`
 
-scikit-learn
+* `scikit-learn`
 
 You can install them using the following command:
